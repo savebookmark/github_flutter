@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget _buildListItem(BuildContext context, DocumentSnapshot data) {
-    print('buildListItem');
+    print('buildListItem $data');
     //하나의도큐멘트를 모델에 담고
     final record = Record.fromSnapshot(data);
     //리스트 로우에 들어갈 각각의 위젯 생성
