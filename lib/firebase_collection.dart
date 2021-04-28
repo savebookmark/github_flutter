@@ -41,6 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: StreamBuilder<QuerySnapshot>(
             stream: FirebaseFirestore.instance.collection('babyvote').snapshots(),
             builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+              print('$snapshot 하하하');
               if (snapshot.hasError) {
                 Text('Something went wrong');
               }
