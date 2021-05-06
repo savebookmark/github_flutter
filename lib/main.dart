@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
             FloatingActionButton(
               onPressed: c2.decrament,
               child: Icon(Icons.remove),
-            )
+            ),
           ],
         ));
   }
