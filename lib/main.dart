@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
+//github 사용
 void main() => runApp(GetMaterialApp(home: Home()));
 
 class Home extends StatelessWidget {
