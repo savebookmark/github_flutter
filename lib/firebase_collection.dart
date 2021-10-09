@@ -9,7 +9,7 @@ import 'package:firebase_core/firebase_core.dart';
 //   {"name": "Ike", "votes": 10},
 //   {"name": "Justin", "votes": 1},
 // ];
-
+//
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
