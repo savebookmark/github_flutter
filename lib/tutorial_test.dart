@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.amber, buttonColor: Colors.indigo),
+      theme: ThemeData(colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.indigo)),
       home: InfinitePage(title: 'Flutter Demo Home Page'),
     );
   }
